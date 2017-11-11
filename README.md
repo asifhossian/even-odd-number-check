@@ -1,0 +1,2 @@
+# hello
+Kind of repository

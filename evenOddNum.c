@@ -1,34 +1,28 @@
-/*This C code check whether
-the given number is EVEN or ODD*/
-
 #include <stdio.h>
-
 
 int main()
 {
-    int num;
+    int number;
 
     printf("Enter an integer number: \n");
 
-    scanf("%d",&num);
+    scanf("%d",&number);
 
-    //This logic check given input is even number
-    if(num%2==0)
+    // True if number is perfectly divisible by 2
+    if(number%2==0)
     {
         printf("Given number is Even\n");
     }
-    //This logic check given input is odd number
-    else if(num%2!=0)
+    else if(number%2!=0)
     {
         printf("Given number is odd\n");
     }
+
     //When unknown exception Occurred
     else
     {
         printf("ERROR \n");
     }
-
-
 
     return 0;
 }

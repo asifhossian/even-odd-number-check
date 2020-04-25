@@ -4,3 +4,5 @@
 - An even number is an integer that is exactly divisible by 2.
 - An odd number is an integer that is not exactly divisible by 2.
 
+**C programming language modulus % operator computes the remainder when the number is divided by 2**
+

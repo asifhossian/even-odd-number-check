@@ -7,7 +7,7 @@ int main()
     printf("Enter an integer number: \n");
 
     scanf("%d", &number);
-
+    // C programming language modulus % operator computes the remainder when the number is divided by 2
     // True if number is perfectly divisible by 2
     if(number%2 == 0)
     {
